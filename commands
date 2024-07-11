@@ -1,0 +1,19 @@
+#1 Create a service.yaml file
+sudo nano service.yaml
+  
+#2 service.yaml file code
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-deployment
+spec:
+  type: NodePort
+  ports:
+    - targetPort: 80
+      port: 80
+      nodePort: 30008
+  selector:
+    app: nginx
+      
+#3 Create a service node port on 30008 using this command:
+kubectl apply –f service.yaml
