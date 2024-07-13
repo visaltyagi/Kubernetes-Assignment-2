@@ -1,5 +1,5 @@
 #1 Create a service.yaml file
-sudo nano service.yaml
+nano service.yaml
   
 #2 service.yaml file code
 apiVersion: v1
