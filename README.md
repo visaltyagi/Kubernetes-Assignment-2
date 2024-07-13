@@ -1,5 +1,5 @@
 # Kubernetes-Assignment-2
-How to Create A NodePort Service &amp; Deploy NGINX on It - Kubernetes Assignment 2
+How to Create A NodePort Service and Deploy NGINX on It - Kubernetes Assignment 2
 
 **For the detailed solution to this assignment, click this link:** https://medium.com/devops-guides/how-to-create-a-nodeport-service-deploy-nginx-on-it-kubernetes-assignment-2-df185143f8c3
 
